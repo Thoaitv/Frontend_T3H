@@ -1,0 +1,27 @@
+Bai 1:
+
+// tinh toán kết quả của các biểu thức bên dưới sau
+    1: let a = "" + 1 + 0 // KQ: 10("" là string nên + 1 chuỗi với 1 số ra chuỗi)
+    2: let a2 = "" - 1 + 0 //KQ:-1 ("" string - number thi convert string to numbẻ)
+    3: let a3 = true + false // KQ:1(true:1 false:0)
+    4: let a4 = 6 / "3" // KQ:2 (6 / "3" lúc này  thì string 3 sẽ được convert thành number)
+    5: let a5 = "4" * "2" // KQ:2 (ngoài phép cộng thì có thể cộng chuỗi ra thì các toán tử khác sau hoặc trước nó là string thì sẽ convert thành number)
+    6: let a6 = 4 + 2 + 'px' // Kq: 6px(4+2 trước rồi + với string px)
+    7: let a7 = "4" - 2 // kq: 2 (4 lúc này sẽ convert về number -2 =2)
+    8: let a8 = "4px" - 2 //kq: NaN(Vì 4px lúc nào là string"4px" nên không thể convert to number nên -2 = NaN)
+    9: let a9 = "    -10     " + 5 // KQ:-10 5(js sẽ bỏ dấu cách o)
+    10: let a10 = " -10 " - 5 // kq:NaA(vì -10 có khoảng trắng ở 2 đầu nên là string)
+    11: null + 1 = 1(Vì null được convert to 0)
+    12: undefined + 1 = ?
+    13: let a10 = " /n /t " - 4  kq: NaN(Vì /n/t là string nên -4 = NaN)
+
+
+Bai 2:
+        // tinh toán kết quả của các biểu thức bên dưới sau
+        let c = null || 2 || undefined; // c = ?
+        (short - circuit evaluation trong js nó sẽ trả về cái giá trị đúng gần nhất từ trái sang phải) => c = 2
+        alert(alert(2) || alert(1)) // sẽ alert ra 2. Vì nó alert đến giá trị alert ra 2 đúng thì sẽ không arlert 1
+        if (-1 || 0) alert('firt');
+        if (null || -1) alert('second') // Cả 2 sẽ được alert ra vì:
+                         ở if đầu tiên thì -1 sẽ là giá trị đúng nên alert ra "first"
+                         ở if thứ 2 thì null đầu tiên sẽ là sai nên bỏ qua và nó check đến -1. VÌ -1 đúng nên sẽ alert ra "second"

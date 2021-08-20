@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    /* position: fixed; */
+    left: 0;
+    right: 0;
+    padding: 15px 300px;
+    background-color: #0072d2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+ul.menu {
+    display: flex;
+}
+
+ul.menu li a {
+    color: #fff;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+
+/* about us */
+
+.about-us .about-us-right img {
+    float: right;
+    width: 400px;
+    height: 270px;
+}
+
+.about-us-left {
+    width: 50%;
+}
+
+.about-us-right {
+    width: 50%;
+}
+
+.about-us {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.news {
+    margin-bottom: 100px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.latest-news {
+    font-weight: 600;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.list-news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-item {
+    width: 32%;
+}
+
+.news-item img {
+    height: 150px;
+    width: 300px;
+}
+
+.news-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.news-content {
+    border: 1px solid #ccc;
+}
+
+.news-content {
+    border-top: 0;
+    padding: 15px 0 15px 15px;
+    width: auto;
+}
+
+.news .read-more {
+    color: black;
+}
+
+.news-content p {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.news-content a {
+    font-size: 12px;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #1b1919;
+    color: #fff;
+}
+
+.list-footer {
+    display: flex;
+    padding: 30px 0px;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.footer-title {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.email input {
+    margin: 5px 0;
+    background-color: #1b1919;
+}
+
+.btn_email {
+    background-color: #fff;
+    color: black;
+    font-size: 14px;
+    width: 44px;
+}
+
+.footer-list {
+    width: 25%;
+}

@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: blue;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__container .left {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+ul {
+    display: flex;
+}
+
+ul li a {
+    color: white;
+    text-transform: uppercase;
+    padding-left: 10px;
+}

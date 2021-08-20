@@ -1,0 +1,60 @@
+/* .children {
+    color: red;
+}
+
+.fix__old {
+    position: relative;
+    background-color: antiquewhite;
+}
+
+.position-parent {
+    position: relative;
+    width: 50%;
+}
+
+.children {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */
+
+body a {
+    color: currentColor;
+    list-style: none;
+}
+
+img {
+    height: 600px;
+    width: 100%;
+}
+
+.container-fluid {
+    padding: 0;
+    color: aliceblue;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-brand {
+    color: white
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: white
+}
+
+footer h2 {
+    color: white;
+}
+
+.text-white-50 {
+    color: aliceblue;
+}
+
+#news .news-content {
+    padding: 15px;
+}
